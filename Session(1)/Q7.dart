@@ -8,6 +8,6 @@ Given this code, identify any errors and explain why they occur: ```dart void ma
 void main()
 { 
     String name = "Alice";
-    name = "Sheren";
+    name = 123;
     print(name); 
 } 
