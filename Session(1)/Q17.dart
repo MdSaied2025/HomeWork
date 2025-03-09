@@ -8,8 +8,12 @@ void main ()
 dynamic hold_any_Type = 7;
 
 hold_any_Type = 8.9;
-hold_any_Type = "Rami";
+print(hold_any_Type);
+hold_any_Type = 'Rami';
+print(hold_any_Type);
 hold_any_Type = false;
+print(hold_any_Type);
 hold_any_Type = 15;
+print(hold_any_Type);
 
 }
