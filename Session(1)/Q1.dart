@@ -2,8 +2,8 @@
 Write a Dart program that prints "Welcome to Dart programming!" to the console.
  */
 
- Void main()
- {
+Void main()
 
-    
- }
+{
+  print('Welcome to Dart programming!');
+}
