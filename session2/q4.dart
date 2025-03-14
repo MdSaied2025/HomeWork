@@ -15,5 +15,6 @@ void main() {
 
   print(person['age']);
 
- //erson.update('city') = ('New York')=>('aaaa');
+  //person.update('city') = ('New York')=>('aaaa');
+  print(person);
 }
