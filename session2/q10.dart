@@ -13,7 +13,7 @@ void main() {
   //  print("The entered  Weather temperature is ${UserInput}");
   //temperature = int.parse((UserInput)!);
 
-  if (UserInput == '') {
+  if (UserInput == null) {
     print('No score');
   } else {
     score = int.parse((UserInput)!);
