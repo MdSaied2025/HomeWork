@@ -9,11 +9,14 @@ void main() {
 //String? firstnumber = stdin.readLineSync()!;
   print('Enter the First Number');
   int firstnumber = int.parse(stdin.readLineSync()!);
-   print('Enter the Second Number');
+  print('Enter the Second Number');
   int secondnumber = int.parse(stdin.readLineSync()!);
-   print('Enter the third Number');
+  print('Enter the third Number');
   int thirdnumber = int.parse(stdin.readLineSync()!);
   print({add(firstnumber, secondnumber, thirdnumber)});
+  print({substract(firstnumber, secondnumber)});
+  print({multiplication(firstnumber, secondnumber)});
+  print({division(firstnumber, secondnumber)});
 }
 
 void add(int firstnumber, int secondnumber, [int thirdnumber = 0]) {
@@ -21,4 +24,27 @@ void add(int firstnumber, int secondnumber, [int thirdnumber = 0]) {
   sum = firstnumber + secondnumber + thirdnumber;
 
   print("The sum is $sum");
+}
+
+void substract(int firstnumber, int secondnumber) {
+  num substract;
+  substract = firstnumber - secondnumber;
+
+  print("The substract is $substract");
+}
+
+//multiplication
+
+void multiplication(int firstnumber, int secondnumber) {
+  num multiplication;
+  multiplication = firstnumber * secondnumber;
+  print("The multiplication is $multiplication");
+}
+
+//division
+
+void division(int firstnumber, int secondnumber) {
+  num division;
+  division = firstnumber / secondnumber;
+  print("The division is $division");
 }
