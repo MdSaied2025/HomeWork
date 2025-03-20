@@ -6,4 +6,12 @@ bonus based on the following rules:
 The function should return the bonus amount.
 Then, call the function inside `main()` and print the result.
  */
+void main ()
+{
 
+
+}
+
+void calculateBonus(int salary, int yearsWorked){
+  
+}
