@@ -6,12 +6,21 @@ bonus based on the following rules:
 The function should return the bonus amount.
 Then, call the function inside `main()` and print the result.
  */
+import 'dart:io';
 void main ()
 {
-
+stdin
 
 }
 
-void calculateBonus(int salary, int yearsWorked){
+double? calculateBonus(int salary, int yearsWorked){
+  double bouns;
+  if (yearsWorked >=5){
+    bouns = salary * 0.10;
+    }
+  else {
+    bouns = salary * 0.05;
+    }
   
+return  bouns;
 }
