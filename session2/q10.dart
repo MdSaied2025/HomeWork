@@ -16,7 +16,7 @@ void main() {
   if (UserInput == null) {
     print('No score');
   } else {
-    score = int.parse((UserInput)!);
+    score = int.parse((UserInput));
     print(score);
   }
 }

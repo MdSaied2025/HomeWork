@@ -12,7 +12,7 @@ void main() {
   calculateBonus(4000, 6);
 }
 
-double? calculateBonus(int salary, int yearsWorked) {
+double calculateBonus(int salary, int yearsWorked) {
   print("Enter the Salary:");
   String? UserInput = stdin.readLineSync();
   salary = int.parse((UserInput)!);
